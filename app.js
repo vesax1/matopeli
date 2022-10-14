@@ -67,6 +67,8 @@ function keyPush(evt) {
         case 40:
             xv=0;yv=1;
             break;
+        case 32:
+                window.location.reload();
+                break;
     }
 }
-
